@@ -1,0 +1,60 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  DesignerMasterStyle = 3
+  inherited Panel1: TPanel
+    Size.Width = 448.000000000000000000
+    Size.Height = 169.000000000000000000
+    inherited Label1: TLabel
+      Size.Height = 65.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+    end
+  end
+  inherited Panel2: TPanel
+    Position.Y = 624.000000000000000000
+    Size.Width = 448.000000000000000000
+    inherited Yeni: TButton
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+    end
+    inherited Exit: TButton
+      Position.X = 375.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+    end
+  end
+  inherited Panel3: TPanel
+    Align = None
+    Position.Y = 164.000000000000000000
+    Size.Width = 448.000000000000000000
+    Size.Height = 452.000000000000000000
+    inherited Button7: TButton
+      Position.Y = 282.000000000000000000
+    end
+  end
+  inherited Panel5: TPanel
+    Position.Y = 169.000000000000000000
+    Size.Width = 448.000000000000000000
+    inherited Label2: TLabel
+      Position.X = 160.000000000000000000
+      Position.Y = -80.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+    end
+    inherited Label5: TLabel
+      Position.X = 32.000000000000000000
+      Position.Y = -80.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+    end
+  end
+  inherited Panel4: TPanel
+    Position.Y = 608.000000000000000000
+    Size.Width = 448.000000000000000000
+    inherited Label3: TLabel
+      Position.X = 391.000000000000000000
+      Position.Y = -523.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+    end
+    inherited Label4: TLabel
+      Position.Y = -523.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+    end
+  end
+end

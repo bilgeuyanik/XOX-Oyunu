@@ -1,0 +1,208 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 580
+  ClientWidth = 444
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 444.000000000000000000
+    Size.Height = 73.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      StyledSettings = [FontColor]
+      Size.Width = 444.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'XOX Oyunu'
+      TabOrder = 0
+    end
+  end
+  object Panel2: TPanel
+    Align = Bottom
+    Position.Y = 508.000000000000000000
+    Size.Width = 444.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Yeni: TButton
+      Align = Left
+      StyledSettings = [Size, FontColor]
+      Size.Width = 73.000000000000000000
+      Size.Height = 72.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Yeni'
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      OnClick = YeniClick
+    end
+    object Exit: TButton
+      Align = Right
+      StyledSettings = [Size, FontColor]
+      Position.X = 371.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 72.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = #199#305'k'#305#351
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      OnClick = ExitClick
+    end
+  end
+  object Panel3: TPanel
+    Align = Client
+    Size.Width = 444.000000000000000000
+    Size.Height = 411.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Button1: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Position.X = 161.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Position.X = 290.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 153.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      OnClick = Button4Click
+    end
+    object Button5: TButton
+      Position.X = 161.000000000000000000
+      Position.Y = 153.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      OnClick = Button5Click
+    end
+    object Button6: TButton
+      Position.X = 290.000000000000000000
+      Position.Y = 153.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      OnClick = Button6Click
+    end
+    object Button7: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 286.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      OnClick = Button7Click
+    end
+    object Button8: TButton
+      Position.X = 161.000000000000000000
+      Position.Y = 286.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      OnClick = Button8Click
+    end
+    object Button9: TButton
+      Position.X = 290.000000000000000000
+      Position.Y = 286.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnClick = Button9Click
+    end
+  end
+  object Panel5: TPanel
+    Align = Top
+    Position.Y = 73.000000000000000000
+    Size.Width = 444.000000000000000000
+    Size.Height = 8.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Label2: TLabel
+      StyledSettings = [Family, Size, FontColor]
+      Position.X = 161.000000000000000000
+      Position.Y = -32.000000000000000000
+      Size.Width = 20.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+      Text = '0'
+      TabOrder = 5
+    end
+    object Label5: TLabel
+      StyledSettings = [Family, Size, FontColor]
+      Position.X = 33.000000000000000000
+      Position.Y = -32.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+      Text = 'X oyuncusu :'
+      TabOrder = 4
+    end
+  end
+  object Panel4: TPanel
+    Align = Bottom
+    Position.Y = 492.000000000000000000
+    Size.Width = 444.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Label3: TLabel
+      StyledSettings = [Family, Size, FontColor]
+      Position.X = 400.000000000000000000
+      Position.Y = -451.000000000000000000
+      Size.Width = 20.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+      Text = '0'
+      TabOrder = 3
+    end
+    object Label4: TLabel
+      StyledSettings = [Family, Size, FontColor]
+      Position.X = 272.000000000000000000
+      Position.Y = -451.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.StyleExt = {00060000000100000004000000}
+      Text = 'O oyuncusu :'
+      TabOrder = 4
+    end
+  end
+end
